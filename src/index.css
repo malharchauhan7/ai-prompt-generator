@@ -1,7 +1,30 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.markdown-content {
+  @apply text-sm leading-relaxed;
+}
+
+.markdown-content h1 {
+  @apply text-xl font-bold mb-4;
+}
+
+.markdown-content h2 {
+  @apply text-lg font-semibold mt-4 mb-2;
+}
+
+.markdown-content ul {
+  @apply list-disc pl-6 mb-4;
+}
+
+.markdown-content li {
+  @apply mb-1;
+}
+
+.markdown-content p {
+  @apply mb-4;
+}
 
 @layer base {
   :root {
@@ -25,7 +48,7 @@
     --input: 230 15% 15%;
     --ring: 250 95% 65%;
     --radius: 0.5rem;
-    
+
     --surface: 230 15% 12%;
 
     --sidebar-background: 230 15% 8%;
@@ -54,11 +77,11 @@
   .glass-effect {
     @apply backdrop-blur-sm bg-surface border border-surface/80 shadow-sm;
   }
-  
+
   .animate-fade-in {
     animation: fadeIn 0.3s ease-in-out;
   }
-  
+
   @keyframes fadeIn {
     from {
       opacity: 0;
