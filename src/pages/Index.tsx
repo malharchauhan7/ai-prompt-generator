@@ -5,10 +5,14 @@ import PromptGenerator from "@/components/PromptGenerator";
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
-      <header className="w-full py-5 px-4 md:px-8 border-b border-border">
+      <header className="w-full py-4 px-3 md:px-8 border-b border-border">
         <div className="container max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex gap-1 justify-center items-center">
-            <img src="/images/logo.png" alt="" className="w-9 mt-1" />
+            <img
+              src="https://ik.imagekit.io/zh57cbpyz/ProjectImages/BetterPromptLogo.png?updatedAt=1747417890117"
+              alt=""
+              className="w-9 mt-1"
+            />
             <h2 className="text-xl font-semibold bg-clip-text font-sans">
               BetterPrompt
             </h2>
@@ -34,7 +38,7 @@ const Index = () => {
         </section>
       </main>
 
-      <footer className="w-full py-6 px-4 md:px-8 border-t border-border">
+      {/* <footer className="w-full py-6 px-4 md:px-8 border-t border-border">
         <div className="container max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="text-sm text-muted-foreground">
@@ -48,16 +52,16 @@ const Index = () => {
               >
                 By Malhar
               </a>
-              {/* <a
+              <a
                 href="#"
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 Terms
-              </a> */}
+              </a>
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 };

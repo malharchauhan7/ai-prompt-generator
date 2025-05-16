@@ -92,7 +92,7 @@ const PromptGenerator = () => {
           />
           <div className="flex w-full sm:justify-end">
             <Button
-              className="w-full sm:w-auto bg-accent hover:bg-accent/80 text-accent-foreground text-sm py-1.5 px-4 h-8"
+              className="w-full sm:w-auto bg-accent hover:bg-accent/80 text-accent-foreground text-sm py-1.5 px-4 h-8 transition-all duration-200 ease-in-out hover:shadow-lg hover:scale-[1.02] hover:bg-purple-600 hover:text-white"
               onClick={handleGenerate}
               disabled={isLoading}
             >
