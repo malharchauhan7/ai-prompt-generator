@@ -13,16 +13,30 @@ const Index = () => {
               alt=""
               className="w-9 mt-1"
             />
-            <h2 className="text-xl font-semibold bg-clip-text font-sans">
-              BetterPrompt
-            </h2>
-          </div>
-          <nav className="hidden md:flex items-center space-x-6">
             <a
+              className="text-xl font-semibold bg-clip-text font-sans select-none "
+              href="/"
+            >
+              BetterPrompt
+            </a>
+          </div>
+          <nav className="hidden md:flex items-center space-x-6  transition-all duration-200 rounded-md hover:scale-105">
+            {/* <a
               href="/"
               className="text-sm font-bold text-muted-foreground hover:text-foreground transition-colors"
             >
               Home
+            </a> */}
+            <a
+              href="https://www.producthunt.com/products/better-prompt?utm_source=badge-follow&utm_medium=badge&utm_source=badge-better&#0045;prompt"
+              target="_blank"
+            >
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=1065968&theme=dark&size=small"
+                alt="Better&#0032;Prompt&#0032; - Smarter&#0032;prompts&#0046;&#0032;Better&#0032;results&#0046; | Product Hunt"
+                width="70"
+                height="28"
+              />
             </a>
           </nav>
         </div>

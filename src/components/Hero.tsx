@@ -10,8 +10,8 @@ const Hero = () => {
         <p className="mt-4 text-base sm:text-lg text-muted-foreground max-w-xl">
           Create powerful, effective prompts for ChatGPT with just an click
         </p>
-        <div className="mt-5">
-          <a
+        <div className="mt-5 hover:scale-105 transition-all duration-200">
+          {/* <a
             href="https://www.producthunt.com/products/better-prompt?utm_source=badge-follow&utm_medium=badge&utm_source=badge-better&#0045;prompt"
             target="_blank"
           >
@@ -20,6 +20,18 @@ const Hero = () => {
               alt="Better&#0032;Prompt&#0032; - Smarter&#0032;prompts&#0046;&#0032;Better&#0032;results&#0046; | Product Hunt"
               width="200"
               height="50"
+            />
+          </a> */}
+
+          <a
+            href="https://www.producthunt.com/products/better-prompt/reviews?utm_source=badge-product_review&utm_medium=badge&utm_source=badge-better&#0045;prompt"
+            target="_blank"
+          >
+            <img
+              src="https://api.producthunt.com/widgets/embed-image/v1/product_review.svg?product_id=1065968&theme=light"
+              alt="Better&#0032;Prompt&#0032; - Smarter&#0032;prompts&#0046;&#0032;Better&#0032;results&#0046; | Product Hunt"
+              width="180"
+              height="45"
             />
           </a>
         </div>
