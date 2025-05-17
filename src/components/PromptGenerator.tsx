@@ -109,10 +109,7 @@ const PromptGenerator = () => {
             </h2>
 
             {results.map((result) => (
-              <div
-                key={result.id}
-                className="p-5 rounded-lg glass-effect animate-fade-in"
-              >
+              <div key={result.id} className=" ">
                 <div className="flex justify-end mb-4">
                   <Button
                     variant="ghost"
@@ -126,7 +123,7 @@ const PromptGenerator = () => {
                     Copy
                   </Button>
                 </div>
-                <div className="prose prose-sm dark:prose-invert max-w-none">
+                <div className="prose prose-sm dark:prose-invert max-w-none glass-effect p-4 rounded-lg  animate-fade-in">
                   {renderMarkdown(result.text)}
                 </div>
               </div>
