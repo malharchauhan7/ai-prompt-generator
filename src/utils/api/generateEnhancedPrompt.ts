@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const generateEnhancedPrompt = async (input: string): Promise<string> => {
-  const API_KEY = import.meta.env.VITE_PUBLIC_GEMINI_API_KEY;
+  const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
   const API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent";
 
   try {

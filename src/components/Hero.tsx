@@ -24,12 +24,12 @@ const Hero = () => {
           </a> */}
 
           <a
-            href="https://www.producthunt.com/products/better-prompt/reviews?utm_source=badge-product_review&utm_medium=badge&utm_source=badge-better&#0045;prompt"
+            href="https://www.producthunt.com/posts/betterprompt-2?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-betterprompt&#0045;2"
             target="_blank"
           >
             <img
-              src="https://api.producthunt.com/widgets/embed-image/v1/product_review.svg?product_id=1065968&theme=light"
-              alt="Better&#0032;Prompt&#0032; - Smarter&#0032;prompts&#0046;&#0032;Better&#0032;results&#0046; | Product Hunt"
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=966449&theme=light&t=1747815116848"
+              alt="BetterPrompt&#0032; - Smarter&#0032;prompts&#0046;&#0032;Better&#0032;results&#0046; | Product Hunt"
               width="180"
               height="45"
             />
